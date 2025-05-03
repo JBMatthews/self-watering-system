@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="434adf59531de210130451a0a0490efa" label="Log" max_length="40" name="x_461782_slf_water_log" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Source Device" max_length="100" name="source_device" type="string"/>
+        <element choice="1" label="Status" max_length="100" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="watered" sequence="2" value="Watered"/>
+                <element inactive_on_update="false" label="dry" sequence="1" value="Too Dry"/>
+                <element inactive_on_update="false" label="ok" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="error" value="Error"/>
+            </choice>
+        </element>
+        <element label="Moisture Level" max_length="100" name="moisture_level" type="decimal"/>
+        <element label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

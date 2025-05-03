@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Log)">4f8a5799531de210130451a0a0490e78</button>
+        <item_parameter display_value="Log date">078a5799531de210130451a0a0490e77</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 13:15:43</sys_created_on>
+        <sys_id>cb8a5799531de210130451a0a0490e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>078a5799531de210130451a0a0490e77</sys_name>
+        <sys_package display_value="Self-Watering System" source="x_461782_slf_water">b5c99759531de210130451a0a0490e26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Self-Watering System">b5c99759531de210130451a0a0490e26</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_cb8a5799531de210130451a0a0490e7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 13:15:43</sys_updated_on>
+        <ui_parameter display_value="Date">438a5799531de210130451a0a0490e79</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
