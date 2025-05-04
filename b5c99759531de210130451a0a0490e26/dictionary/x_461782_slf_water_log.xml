@@ -12,7 +12,18 @@
         </element>
         <element label="Moisture Level" max_length="100" name="moisture_level" type="decimal"/>
         <element label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
+        <element label="Note" max_length="500" name="note" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Watered" max_length="40" name="watered" type="boolean">
+            <choice/>
+        </element>
+        <element choice="1" label="Severity" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Info" sequence="0" value="info"/>
+                <element inactive_on_update="false" label="Warning" sequence="1" value="warning"/>
+                <element inactive_on_update="false" label="Critical" sequence="2" value="critical"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date_time"/>
         <index name="index">
             <element name="sys_class_name"/>
