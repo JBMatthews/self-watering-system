@@ -1,0 +1,4 @@
+# Ignore secrets and compiled files
+pico/secrets.py
+__pycache__/
+*.pyc
