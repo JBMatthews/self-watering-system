@@ -4,10 +4,10 @@
         <element label="Source Device" max_length="100" name="source_device" type="string"/>
         <element choice="1" label="Status" max_length="100" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="watered" sequence="2" value="Watered"/>
-                <element inactive_on_update="false" label="dry" sequence="1" value="Too Dry"/>
-                <element inactive_on_update="false" label="ok" sequence="0" value="OK"/>
-                <element inactive_on_update="false" label="error" value="Error"/>
+                <element inactive_on_update="false" label="watered" sequence="2" value="watered"/>
+                <element inactive_on_update="false" label="ok" sequence="0" value="ok"/>
+                <element inactive_on_update="false" label="dry" sequence="1" value="dry"/>
+                <element inactive_on_update="false" label="error" sequence="3" value="error"/>
             </choice>
         </element>
         <element label="Moisture Level" max_length="100" name="moisture_level" type="decimal"/>
@@ -19,8 +19,8 @@
         </element>
         <element choice="1" label="Severity" max_length="40" name="severity" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Info" sequence="0" value="info"/>
                 <element inactive_on_update="false" label="Warning" sequence="1" value="warning"/>
+                <element inactive_on_update="false" label="Info" sequence="0" value="info"/>
                 <element inactive_on_update="false" label="Critical" sequence="2" value="critical"/>
             </choice>
         </element>
