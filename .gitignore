@@ -1,5 +1,5 @@
 # Ignore secrets and compiled files
-pico/secrets.py
+hardware/esp8266/secrets.py
 __pycache__/
 *.pyc
 .DS_Store
