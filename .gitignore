@@ -5,3 +5,6 @@ hardware/esp8266/secrets.py
 __pycache__/
 *.pyc
 .DS_Store
+
+# Ignore secrets
+hardware/**/secrets.py
