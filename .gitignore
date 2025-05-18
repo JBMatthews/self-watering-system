@@ -1,5 +1,7 @@
 # Ignore secrets and compiled files
 hardware/esp8266/secrets.py
+/hardware/esp8266/secrets.py
+/Users/galaxyone/Documents/Projects/self-watering-system/hardware/esp8266/secrets.py
 __pycache__/
 *.pyc
 .DS_Store
